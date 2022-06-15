@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.11
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Daria", "Test_Daria\Test_Daria.csproj", "{DFB7F9A7-7A7C-431F-BF1F-465776CE18B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFB7F9A7-7A7C-431F-BF1F-465776CE18B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB7F9A7-7A7C-431F-BF1F-465776CE18B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB7F9A7-7A7C-431F-BF1F-465776CE18B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB7F9A7-7A7C-431F-BF1F-465776CE18B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA5C48E1-A743-4CE7-A80F-04E5A8B34EC0}
+	EndGlobalSection
+EndGlobal

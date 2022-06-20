@@ -25,20 +25,20 @@ namespace Test_Daria
         static int anotherCount = 1;
         static bool check = false;
         static Random rand = new Random();
+       static int[] questionsDa = new int[210];
+       static int[] questionsNet = new int[181];
 
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            int[] questionsDa = new int[210];
-            int[] questionsNet = new int[181];
 
-            for (int i = 0; i < 70; i++)
+            for (int i = 0; i < 210; i++)
             {
                 questionsDa[i] = +count;
                 count += 5;
             }
             count = 0;
-            for (int l = 0; l < 81; l++)
+            for (int l = 0; l < 181; l++)
             {
                 questionsNet[l] = +count;
                 count += 6;
@@ -116,10 +116,7 @@ namespace Test_Daria
                 Console.WriteLine("Напиши А,Б или В :)");
                 goto a;
             }
-
-
         }
-
 
         static void GenerateNet(int[] questionsNet)
         {
